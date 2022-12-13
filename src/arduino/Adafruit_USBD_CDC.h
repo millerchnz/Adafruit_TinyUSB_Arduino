@@ -95,7 +95,7 @@ private:
 // "Serial" is used with TinyUSB CDC
 #if defined(USE_TINYUSB)
 extern Adafruit_USBD_CDC Serial;
-#define SerialTinyUSB Serial
+//#define SerialTinyUSB Serial
 #endif
 
 // Serial is probably used with HW Uart
